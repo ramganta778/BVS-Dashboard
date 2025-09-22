@@ -1,14 +1,14 @@
 {
-  "name": "food-delivery-backend",
+  "name": "bvs-dashboard-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend for BVS Dashboard",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["bvs", "dashboard", "backend", "node", "express"],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.2",
@@ -23,5 +23,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
   }
 }
